@@ -42,6 +42,7 @@
 
     select{
         font-size: 25px;
+        background-color: transparent;
     }
 
     .btn-div{
@@ -136,6 +137,41 @@
     .img img{
         width: 50px;
     }
+    select{
+        background-color: transparent;
+    }
+
+    .from input:focus{
+        box-shadow:  0px 0px 10px 2px rgba(80, 86, 255, 0.5);
+    }
+    .from .dropdown:hover{
+        box-shadow:  0px 0px 0px 0px rgba(80, 86, 255, 0.0);
+    }
+    
+    
+    
+    .to input{
+        box-shadow:  0px 0px 10px 0px rgba(255, 68, 0, 0.2);
+    }
+    .to input:focus{
+        box-shadow:  0px 0px 10px 2px rgba(255, 68, 0, 0.5);
+    }
+    .to .dropdown{
+        box-shadow:  0px 0px 10px 0px rgba(255, 68, 0, 0.2);
+    }
+    .to .dropdown:hover{
+        box-shadow:  0px 0px 0px 0px rgba(255, 68, 0, 0);
+    }
+    .btn-div button:hover{
+        box-shadow: 0px 0px 0px 0px gray;
+        transform: translateY(0px);
+        border-radius: 10px;
+    }
+    .btn-div button:active{
+        box-shadow: 0px 0px 0px 0px gray;
+        transform: translateY(0px);
+    }
+
 }
 
 /* 420px */
