@@ -165,7 +165,4 @@ p{
 .top2 span{
     box-shadow:  0px 0px 10px 2px rgba(255, 68, 0, 0.2);
     background-color: rgb(255 153 51);
-}
-select option{
-    background-color: rgba(59, 66, 70, 0.075);
-}
+} 
