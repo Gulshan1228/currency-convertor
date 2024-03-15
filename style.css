@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background: linear-gradient(120deg,white,white,white,rgb(255, 255, 255),rgb(255, 255, 255),rgba(255, 255, 255, 0.5) );
+    border-radius: 1.75rem;
+    height: 75vh;
+    width: 35vw;
+    padding: 30px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    box-shadow: -35px 10px 30px 5px rgba(0, 0, 0, 0.5);
+    font-family: system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+}
+main h1{
+    letter-spacing: 0.5mm;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: -20px;
+}
+
+.img img{
+    width: 40px;
+}
+.img{
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+input{
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    width: 70%;
+    padding: 5px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.to,.from{
+    gap: 0.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.to img,.from img{
+    height: 32px ;
+}
+.to select,.from select{
+    border: none;
+    outline: 0;
+}
+
+.from input{
+    box-shadow:  0px 0px 10px 0px rgba(80, 86, 255, 0.2);
+}
+.from input:focus{
+    box-shadow:  0px 0px 10px 2px rgba(80, 86, 255, 0.5);
+}
+.from .dropdown{
+    box-shadow:  0px 0px 10px 0px rgba(80, 86, 255, 0.2);
+}
+.from .dropdown:hover{
+    box-shadow:  0px 0px 10px 2px rgba(80, 86, 255, 0.5);
+}
+
+
+
+.to input{
+    box-shadow:  0px 0px 10px 0px rgba(255, 68, 0, 0.4);
+}
+.to input:focus{
+    box-shadow:  0px 0px 10px 2px rgba(255, 68, 0, 0.6);
+}
+.to .dropdown{
+    box-shadow:  0px 0px 10px 0px rgba(255, 68, 0, 0.4);
+}
+.to .dropdown:hover{
+    box-shadow:  0px 0px 10px 2px rgba(255, 68, 0, 0.6);
+}
+
+
+
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 0px 10px;
+}
+
+.btn-div{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 50px 20px;
+}
+.btn-div button{
+    padding: 8px 0px;
+    color: white;
+    background: linear-gradient(160deg,rgba(0, 0, 255, 0.7),steelblue);
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 150px;
+    letter-spacing: 0.1mm;
+    transition: all 0.25s ease;
+}
+.btn-div button:hover{
+    box-shadow: 0px 2px 0px 1px gray;
+    transform: translateY(-4px);
+    border-radius: 10px;
+}
+.btn-div button:active{
+    box-shadow: 0px 0px 0px 0px gray;
+    transform: translateY(0px);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 2px;
+}
+p{
+    font-size: 12px;
+    color: gray;
+    padding-left: 6px;
+    letter-spacing: 0.1mm;
+}
+.top span{
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-right: 8px;
+    color: whitesmoke;
+    padding-bottom: 3px;
+}
+.top1 span{
+    box-shadow:  0px 0px 10px 2px rgba(80, 86, 255, 0.1);
+    background-color:  rgba(80, 86, 255);
+}
+.top2 span{
+    box-shadow:  0px 0px 10px 2px rgba(255, 68, 0, 0.2);
+    background-color: rgb(255 153 51);
+}
+select option{
+    background-color: rgba(59, 66, 70, 0.075);
+}

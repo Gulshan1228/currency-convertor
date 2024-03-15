@@ -1,0 +1,311 @@
+@media(max-width: 1025px){
+    main{
+        width: 70%;
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 100px;
+        font-size: 25px;
+    }
+    body{
+        background-image: url(bg.jpg);
+        background-position: center;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main h1 {
+        letter-spacing: 0.75mm;
+        padding-bottom: 100px;
+    }
+    .img img{
+        width: 100px;
+    }
+    .img{
+        padding: 30px;
+        padding-top: 50px;
+    }
+    input{
+        border-radius: 10px;
+        font-size: 33px;
+        font-weight: normal;
+    }
+    .to,.from{
+        gap: 1rem;
+    }
+    .to img,.from img{
+        height: 50px ;
+    }
+
+    select{
+        font-size: 25px;
+    }
+
+    .btn-div{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 100px 20px;
+    }
+    .btn-div button{
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 200px;
+    }
+
+    p{
+        font-size: 20px;
+        color: gray;
+        padding-left: 6px;
+        letter-spacing: 0.1mm;
+    }
+    .top span{
+        padding: 2px 20px;
+        font-size: 22px;
+        margin-right: 8px;
+        padding-bottom: 9px;
+    }
+}
+
+
+
+/* 768 */
+@media(max-width : 769px){
+    main{
+        padding: 50px;
+        padding-top: 75px;
+    }
+    main h1 {
+        letter-spacing: 0.5mm;
+        padding-bottom: 50px;
+        font-size: 37px;
+    }
+    .to img,.from img{
+        height: 40px ;
+    }
+    input {
+        border-radius: 8px;
+        font-size: 25px;
+        font-weight: light;
+    }
+    .img{
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+    .img img{
+        width: 80px;
+    }
+
+    p{
+        font-size: 16px;
+        color: gray;
+        padding-left: 6px;
+        letter-spacing: 0.1mm;
+    }
+    .top span{
+        padding: 2px 10px;
+        font-size: 18px;
+        margin-right: 5px;
+        padding-bottom: 5px;
+    }
+    select{
+        font-size: 22px;
+    }
+}
+
+/* 500px */
+@media(max-width:500px){
+    main h1 {
+        letter-spacing: 0.5mm;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+    main {
+        padding: 10px;
+        padding-top: 80px;
+        width: 90%;
+        height: 75%;
+    }
+    .img img{
+        width: 50px;
+    }
+}
+
+/* 420px */
+@media(max-width:420px){
+    main h1 {
+        letter-spacing: 0.5mm;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+    main {
+        padding: 15px;
+        padding-top: 50px;
+        width: 90%;
+        height: 75%;
+    }
+    .img img{
+        width: 50px;
+    }
+    .top span {
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-right: 2px;
+        padding-bottom: 5px;
+    }
+    .to, .from {
+        gap: 5px;
+    }
+    .btn-div {
+        gap: 1rem;
+        margin: 75px 20px;
+    }
+    .img {
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+    }
+}
+
+
+/* 400px */
+@media(max-width:400px){
+    main h1 {
+        letter-spacing: 0.5mm;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+    main {
+        padding: 15px;
+        padding-top: 50px;
+        width: 90%;
+        height: 75%;
+    }
+    .img img{
+        width: 50px;
+    }
+    .top span {
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-right: 2px;
+        padding-bottom: 5px;
+    }
+    .to, .from {
+        gap: 5px;
+    }
+    .btn-div {
+        gap: 1rem;
+        margin: 75px 20px;
+    }
+}
+
+
+/* 333px */
+@media(max-width:380px){
+    main h1 {
+        letter-spacing: 0mm;
+        padding-bottom: 75px;
+        font-size: 28px;
+    }
+    main {
+        padding: 10px;
+        padding-top: 40px;
+        width: 90%;
+        height: 80%;
+    }
+    .img img{
+        width: 35px;
+    }
+    .to img, .from img {
+        height: 30px;
+    }
+    .img {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .top span {
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-right: 2px;
+        padding-bottom: 5px;
+    }
+    .to, .from {
+        gap: 5px;
+    }
+    .btn-div {
+        gap: 1rem;
+        margin: 75px 20px;
+    }
+    input{
+        font-size: 16px;
+    }
+    select {
+        font-size: 18px;
+    }
+    .btn-div button {
+        padding: 10px 20px;
+        font-size: 16px;
+        width: 200px;
+    }
+}
+
+/* 333px */
+@media(max-width:333px){
+    main h1 {
+        letter-spacing: 0mm;
+        padding-bottom: 75px;
+        font-size: 28px;
+    }
+    main {
+        padding: 10px;
+        padding-top: 40px;
+        width: 90%;
+        height: 80%;
+    }
+    .img img{
+        width: 35px;
+    }
+    .to img, .from img {
+        height: 30px;
+    }
+    .img {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .top span {
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-right: 2px;
+        padding-bottom: 5px;
+    }
+    .to, .from {
+        gap: 5px;
+    }
+    .btn-div {
+        gap: 1rem;
+        margin: 75px 20px;
+    }
+    input{
+        font-size: 16px;
+    }
+    select {
+        font-size: 18px;
+    }
+    .btn-div button {
+        padding: 10px 20px;
+        font-size: 16px;
+        width: 200px;
+    }
+}

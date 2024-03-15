@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mq.css">
+  </head>
+  <body>
+    <main>
+      <h1>Currency Converter</h1>
+      <div class="container">
+        <div class="top top1">
+          <p>From</p>
+          <span id="fromName">United States Dollar</span>
+        </div>
+        <div class="from">
+          <div class="dropdown">
+            <img src="https://flagsapi.com/US/flat/64.png" id="flagImage1" alt="Flag"/>
+            <select id="currency-selector1">
+              <option value="AED">AED</option>
+              <option value="CNY">CNY</option>
+              <option value="EUR">EUR</option>
+              <option value="INR">INR</option>
+              <option value="JPY">JPY</option>
+              <option value="RUB">RUB</option>
+              <option value="USD" selected>USD</option>
+            </select>
+          </div>
+          <input type="number" id="from" value="1" />
+        </div>
+
+        <div class="img">
+          <img src="arrow.svg" alt="Arrow Pic" />
+        </div>
+
+        <div class="top top2">
+          <p>To</p>
+          <span id="toName">Indian Rupee</span>
+        </div>
+        <div class="to">
+          <div class="dropdown">
+            <img src="https://flagsapi.com/IN/flat/64.png" id="flagImage2" alt="Flag" />
+            <select id="currency-selector2">
+              <option value="AED">AED</option>
+              <option value="CNY">CNY</option>
+              <option value="EUR">EUR</option>
+              <option value="INR" selected>INR</option>
+              <option value="JPY">JPY</option>
+              <option value="RUB">RUB</option>
+              <option value="USD">USD</option>
+            </select>
+          </div>
+          <input type="number" id="to" value=""/>
+        </div>
+
+        <div class="btn-div">
+          <button id="convert">Convert</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
